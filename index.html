@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Raad de ogen in de bokaal! – Windrose Giants Antwerp Halloween Night</title>
+<meta name="description" content="Halloween Night 31/10 – raad hoeveel ogen er in de bokaal zitten en win 4 VIP-tickets + VIP-diner voor 4.">
+<meta name="theme-color" content="#0b0b0b">
+<meta name="robots" content="noindex">
+<link rel="icon" href="logo.png">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Butcherman&family=Creepster&family=Inter:wght@400;600;800&display=swap');
+:root{--red:#e30613;--red2:#b0000d;--black:#0b0b0b;--card:#161616;--white:#fff;--grey:#bdbdbd;--orange:#ff7a00}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--black);color:var(--white);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+body{min-height:100vh;background:
+ radial-gradient(1200px 500px at 50% -10%,rgba(227,6,19,.45),transparent 60%),
+ radial-gradient(600px 400px at 100% 100%,rgba(255,122,0,.12),transparent 60%),var(--black)}
+.web{position:fixed;top:0;width:150px;opacity:.25;pointer-events:none}
+.web.l{left:0}.web.r{right:0;transform:scaleX(-1)}
+.wrap{max-width:520px;margin:0 auto;padding:22px 18px 40px;position:relative}
+header{text-align:center}
+header img{width:120px;filter:drop-shadow(0 6px 18px rgba(227,6,19,.55))}
+.tag{display:inline-block;margin-top:10px;font:600 12px/1 Inter;letter-spacing:.18em;text-transform:uppercase;color:var(--orange);border:1px solid rgba(255,122,0,.5);padding:6px 10px;border-radius:99px}
+h1{font-family:Butcherman,Creepster,'Bebas Neue',Impact,sans-serif;font-weight:400;font-size:36px;line-height:1.1;margin:14px 0 6px;color:var(--red);text-shadow:0 0 18px rgba(227,6,19,.6),0 2px 0 #000;letter-spacing:.02em}
+.sub{color:var(--grey);font-size:15px;margin:0 0 4px}
+.eyes{display:flex;justify-content:center;gap:12px;margin:14px 0 4px}
+.eye{width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 50% 50%,#111 0 28%,#7a0a0a 29% 40%,#fff 41%);box-shadow:0 0 0 2px #000,0 0 12px rgba(255,255,255,.25);animation:blink 5s infinite}
+.eye:nth-child(2){animation-delay:.7s}.eye:nth-child(3){animation-delay:1.9s}.eye:nth-child(4){animation-delay:3.1s}
+@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+.prize{margin:18px 0;background:linear-gradient(135deg,var(--red),var(--red2));border-radius:16px;padding:16px 18px;box-shadow:0 10px 30px rgba(227,6,19,.35)}
+.prize b{display:block;font-family:'Bebas Neue',Impact,sans-serif;font-size:28px;letter-spacing:.03em;line-height:1.05}
+.prize span{font-size:13px;opacity:.9}
+.card{background:var(--card);border:1px solid #2a2a2a;border-radius:18px;padding:20px 18px}
+label{display:block;font-weight:600;font-size:14px;margin:14px 0 6px}
+label:first-child{margin-top:0}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.row label{margin-top:0}
+input[type=text],input[type=tel],input[type=email],input[type=number]{width:100%;font:16px Inter,sans-serif;padding:13px 14px;border-radius:12px;border:1.5px solid #333;background:#0f0f0f;color:#fff;outline:none}
+input:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(227,6,19,.25)}
+.q{margin-top:18px;padding:14px;border-radius:14px;background:#1d1010;border:1px dashed rgba(227,6,19,.6)}
+.q label{margin-top:0;font-size:15px}
+.q small{display:block;color:var(--grey);font-size:12px;margin-top:6px}
+.consent{display:flex;gap:10px;align-items:flex-start;margin-top:18px;font-size:13px;color:#ddd;font-weight:400}
+.consent input{width:22px;height:22px;flex:none;accent-color:var(--red);margin-top:1px}
+button{width:100%;margin-top:20px;padding:16px;border:0;border-radius:14px;background:var(--red);color:#fff;font:400 26px/1 'Bebas Neue',Impact,sans-serif;letter-spacing:.06em;cursor:pointer;box-shadow:0 8px 22px rgba(227,6,19,.45)}
+button:disabled{opacity:.6}
+.err{color:#ff6b6b;font-size:13px;margin-top:10px;min-height:1em}
+.deadline{text-align:center;color:var(--grey);font-size:13px;margin-top:14px}
+.deadline b{color:#fff}
+.msg{text-align:center;padding:30px 18px}
+.msg .big{font-family:'Bebas Neue',Impact,sans-serif;font-size:40px;line-height:1;color:var(--red)}
+.hidden{display:none}
+footer{text-align:center;color:#777;font-size:11px;margin-top:22px;line-height:1.5}
+</style>
+</head>
+<body>
+<svg class="web l" viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="#fff" stroke-width=".6"><path d="M0 0L100 30M0 0L70 70M0 0L30 100"/><path d="M20 6Q17 14 14 20Q8 17 6 20"/><path d="M40 12Q33 28 28 40Q14 33 12 40"/><path d="M60 18Q49 42 42 60Q22 49 18 60"/><path d="M80 24Q65 56 56 80Q30 65 24 80"/></g></svg>
+<svg class="web r" viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="#fff" stroke-width=".6"><path d="M0 0L100 30M0 0L70 70M0 0L30 100"/><path d="M20 6Q17 14 14 20Q8 17 6 20"/><path d="M40 12Q33 28 28 40Q14 33 12 40"/><path d="M60 18Q49 42 42 60Q22 49 18 60"/></g></svg>
+<div class="wrap">
+ <header>
+  <img src="logo.png" alt="Windrose Giants Antwerp">
+  <div><span class="tag">🎃 Halloween Night · za 31/10</span></div>
+  <h1>Raad de ogen in de bokaal!</h1>
+  <p class="sub">Hoeveel griezelige ogen zitten er in de bokaal aan de inkom?</p>
+  <div class="eyes" aria-hidden="true"><i class="eye"></i><i class="eye"></i><i class="eye"></i><i class="eye"></i></div>
+ </header>
+
+ <div class="prize"><b>Win 4 VIP-tickets + VIP-diner voor 4</b><span>voor een thuiswedstrijd van de Windrose Giants Antwerp</span></div>
+
+ <form id="f" class="card" novalidate>
+  <div class="row">
+   <div><label for="vn">Voornaam</label><input id="vn" type="text" autocomplete="given-name" required></div>
+   <div><label for="an">Achternaam</label><input id="an" type="text" autocomplete="family-name" required></div>
+  </div>
+  <label for="tel">Telefoonnummer</label><input id="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="04xx xx xx xx" required>
+  <label for="em">E-mailadres</label><input id="em" type="email" inputmode="email" autocomplete="email" placeholder="naam@voorbeeld.be" required>
+  <div class="q"><label for="q1">👁️ Vraag 1: Hoeveel ogen zitten er in de bokaal?</label><input id="q1" type="number" inputmode="numeric" min="0" step="1" required><small>Wie het dichtst bij het echte aantal zit, wint.</small></div>
+  <div class="q"><label for="q2">🕷️ Vraag 2: Hoeveel mensen denk je dat er aan deze wedstrijd deelnemen?</label><input id="q2" type="number" inputmode="numeric" min="0" step="1" required><small>Schiftingsvraag bij een gelijke stand.</small></div>
+  <label class="consent"><input id="ok" type="checkbox" required><span>Ik ga akkoord dat mijn gegevens enkel gebruikt worden voor deze wedstrijd en dat ik gecontacteerd word als ik win.</span></label>
+  <button id="btn" type="submit">Verstuur mijn gok</button>
+  <div class="err" id="err" role="alert"></div>
+  <p class="deadline">Deelnemen kan tot <b>zaterdag 31/10 om 20:00</b>.<br>De winnaar wordt afgeroepen tijdens de match.</p>
+ </form>
+
+ <div id="done" class="card msg hidden"><div class="big">Je gok is binnen! 👻</div><p>Bedankt om mee te doen. Hou de match goed in de gaten: de winnaar wordt afgeroepen tijdens Halloween Night.</p><p style="color:#bdbdbd;font-size:13px">Let's go Giants! 🏀</p></div>
+ <div id="closed" class="card msg hidden"><div class="big">De wedstrijd is afgelopen</div><p>Deelnemen kon tot zaterdag 31/10 om 20:00. De winnaar wordt afgeroepen tijdens de match. Bedankt om mee te doen!</p></div>
+
+ <footer>Eén deelname per persoon (per e-mailadres en telefoonnummer). Bij een gelijke stand telt de schiftingsvraag, daarna de vroegste inzending.<br>Windrose Giants Antwerp · Halloween Night vs Limburg United</footer>
+</div>
+<script>
+/* ===== CONFIG – vul in na het aanmaken van het Google Formulier ===== */
+const FORM_ID = "1FAIpQLSezcCI8kEIFVWsz_VvR5gqdhmL38SMyboaNpToS4Jq01kqjSA";            // uit https://docs.google.com/forms/d/e/<FORM_ID>/viewform
+const ENTRY = {                               // uit "Vooraf ingevulde link ophalen"
+  voornaam:"entry.1311056169", achternaam:"entry.697140702", telefoon:"entry.272684151",
+  email:"entry.296322817", ogen:"entry.1463031055", deelnemers:"entry.1305671341", toestemming:"entry.754668649"
+};
+const CONSENT_VALUE = "Ik ga akkoord dat mijn gegevens enkel gebruikt worden voor deze wedstrijd en dat ik gecontacteerd word als ik win.";
+const CLOSE_AT = Date.parse("2026-10-31T20:00:00+01:00");   // 20:00 Brussel (CET)
+/* ==================================================================== */
+const $=id=>document.getElementById(id);
+const params=new URLSearchParams(location.search);
+function isClosed(){ return params.get("preview")==="closed" || (params.get("preview")!=="open" && Date.now()>=CLOSE_AT); }
+function show(which){ ["f","done","closed"].forEach(k=>$(k).classList.toggle("hidden",k!==which)); }
+if(isClosed()) show("closed");
+else if(localStorage.getItem("bokaal-2026-done") && params.get("preview")!=="open") show("done");
+setInterval(()=>{ if(isClosed() && !$("f").classList.contains("hidden")) show("closed"); },15000);
+
+$("f").addEventListener("submit", async e=>{
+  e.preventDefault(); $("err").textContent="";
+  const v={voornaam:$("vn").value.trim(),achternaam:$("an").value.trim(),telefoon:$("tel").value.trim(),
+           email:$("em").value.trim(),ogen:$("q1").value.trim(),deelnemers:$("q2").value.trim()};
+  if(!v.voornaam||!v.achternaam) return $("err").textContent="Vul je voornaam en achternaam in.";
+  if(v.telefoon.replace(/\D/g,"").length<8) return $("err").textContent="Vul een geldig telefoonnummer in.";
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.email)) return $("err").textContent="Vul een geldig e-mailadres in.";
+  if(!/^\d+$/.test(v.ogen)) return $("err").textContent="Vraag 1: vul een geheel getal in.";
+  if(!/^\d+$/.test(v.deelnemers)) return $("err").textContent="Vraag 2: vul een geheel getal in.";
+  if(!$("ok").checked) return $("err").textContent="Vink het akkoord aan om deel te nemen.";
+  if(isClosed()) return show("closed");
+  if(FORM_ID.startsWith("VUL")) return $("err").textContent="(Testmodus) Formulier nog niet gekoppeld.";
+  const body=new URLSearchParams();
+  for(const k in v) body.append(ENTRY[k], v[k]);
+  body.append(ENTRY.toestemming, CONSENT_VALUE);
+  $("btn").disabled=true; $("btn").textContent="Bezig…";
+  try{
+    await fetch("https://docs.google.com/forms/d/e/"+FORM_ID+"/formResponse",{method:"POST",mode:"no-cors",body});
+    localStorage.setItem("bokaal-2026-done","1"); show("done");
+  }catch(x){
+    $("btn").disabled=false; $("btn").textContent="Verstuur mijn gok";
+    $("err").textContent="Versturen lukte niet. Controleer je internet en probeer opnieuw.";
+  }
+});
+</script>
+</body>
+</html>
