@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Raad de ogen in de bokaal! – Windrose Giants Antwerp Halloween Night</title>
-<meta name="description" content="Halloween Night 31/10 – raad hoeveel ogen er in de bokaal zitten en win 4 VIP-tickets + VIP-diner voor 4.">
+<title>Raad de doodskopjes in de bokaal! – Windrose Giants Antwerp Halloween Night</title>
+<meta name="description" content="Halloween Night 31/10 – raad hoeveel doodskopjes er in de bokaal zitten en win 4 VIP-tickets + VIP-diner voor 4.">
 <meta name="theme-color" content="#0b0b0b">
 <meta name="robots" content="noindex">
 <link rel="icon" href="logo.png">
@@ -25,9 +25,9 @@ header img{width:120px;filter:drop-shadow(0 6px 18px rgba(227,6,19,.55))}
 h1{font-family:Butcherman,Creepster,'Bebas Neue',Impact,sans-serif;font-weight:400;font-size:36px;line-height:1.1;margin:14px 0 6px;color:var(--red);text-shadow:0 0 18px rgba(227,6,19,.6),0 2px 0 #000;letter-spacing:.02em}
 .sub{color:var(--grey);font-size:15px;margin:0 0 4px}
 .eyes{display:flex;justify-content:center;gap:12px;margin:14px 0 4px}
-.eye{width:30px;height:30px;border-radius:50%;background:radial-gradient(circle at 50% 50%,#111 0 28%,#7a0a0a 29% 40%,#fff 41%);box-shadow:0 0 0 2px #000,0 0 12px rgba(255,255,255,.25);animation:blink 5s infinite}
+.eye{width:28px;height:31px;background:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2040%2044%22%3E%3Cpath%20d%3D%22M20%202C9.5%202%203%209%203%2018c0%206%203%2010%207%2012v6c0%202%201.5%203%203%203h14c1.5%200%203-1%203-3v-6c4-2%207-6%207-12C37%209%2030.5%202%2020%202z%22%20fill%3D%22%23111%22%20stroke%3D%22%23f3e9e4%22%20stroke-width%3D%222%22/%3E%3Ccircle%20cx%3D%2213%22%20cy%3D%2219%22%20r%3D%224.5%22%20fill%3D%22%23f3e9e4%22/%3E%3Ccircle%20cx%3D%2227%22%20cy%3D%2219%22%20r%3D%224.5%22%20fill%3D%22%23f3e9e4%22/%3E%3Cpath%20d%3D%22M20%2024l-2.5%205h5z%22%20fill%3D%22%23f3e9e4%22/%3E%3Cpath%20d%3D%22M15%2034v5M20%2034v5M25%2034v5%22%20stroke%3D%22%23f3e9e4%22%20stroke-width%3D%221.6%22/%3E%3C/svg%3E") center/contain no-repeat;filter:drop-shadow(0 0 6px rgba(255,255,255,.25));animation:wobble 4s infinite}
 .eye:nth-child(2){animation-delay:.7s}.eye:nth-child(3){animation-delay:1.9s}.eye:nth-child(4){animation-delay:3.1s}
-@keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+@keyframes wobble{0%,88%,100%{transform:rotate(0)}92%{transform:rotate(-12deg)}96%{transform:rotate(12deg)}}}
 .prize{margin:18px 0;background:linear-gradient(135deg,var(--red),var(--red2));border-radius:16px;padding:16px 18px;box-shadow:0 10px 30px rgba(227,6,19,.35)}
 .prize b{display:block;font-family:'Bebas Neue',Impact,sans-serif;font-size:28px;letter-spacing:.03em;line-height:1.05}
 .prize span{font-size:13px;opacity:.9}
@@ -61,8 +61,8 @@ footer{text-align:center;color:#777;font-size:11px;margin-top:22px;line-height:1
  <header>
   <img src="logo.png" alt="Windrose Giants Antwerp">
   <div><span class="tag">🎃 Halloween Night · za 31/10</span></div>
-  <h1>Raad de ogen in de bokaal!</h1>
-  <p class="sub">Hoeveel griezelige ogen zitten er in de bokaal aan de inkom?</p>
+  <h1>Raad de doodskopjes in de bokaal!</h1>
+  <p class="sub">Hoeveel kleine zwarte doodskopjes zitten er in de bokaal aan de inkom?</p>
   <div class="eyes" aria-hidden="true"><i class="eye"></i><i class="eye"></i><i class="eye"></i><i class="eye"></i></div>
  </header>
 
@@ -75,7 +75,7 @@ footer{text-align:center;color:#777;font-size:11px;margin-top:22px;line-height:1
   </div>
   <label for="tel">Telefoonnummer</label><input id="tel" type="tel" inputmode="tel" autocomplete="tel" placeholder="04xx xx xx xx" required>
   <label for="em">E-mailadres</label><input id="em" type="email" inputmode="email" autocomplete="email" placeholder="naam@voorbeeld.be" required>
-  <div class="q"><label for="q1">👁️ Vraag 1: Hoeveel ogen zitten er in de bokaal?</label><input id="q1" type="number" inputmode="numeric" min="0" step="1" required><small>Wie het dichtst bij het echte aantal zit, wint.</small></div>
+  <div class="q"><label for="q1">💀 Vraag 1: Hoeveel doodskopjes zitten er in de bokaal?</label><input id="q1" type="number" inputmode="numeric" min="0" step="1" required><small>Wie het dichtst bij het echte aantal zit, wint.</small></div>
   <div class="q"><label for="q2">🕷️ Vraag 2: Hoeveel mensen denk je dat er aan deze wedstrijd deelnemen?</label><input id="q2" type="number" inputmode="numeric" min="0" step="1" required><small>Schiftingsvraag bij een gelijke stand.</small></div>
   <label class="consent"><input id="ok" type="checkbox" required><span>Ik ga akkoord dat mijn gegevens enkel gebruikt worden voor deze wedstrijd en dat ik gecontacteerd word als ik win.</span></label>
   <button id="btn" type="submit">Verstuur mijn gok</button>
